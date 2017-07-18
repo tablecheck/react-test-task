@@ -1,0 +1,15 @@
+.grid {
+  &.box {
+    display: flex;
+  }
+
+  &.vbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &.hbox {
+    display: flex;
+    flex-direction: row;
+  }
+}
